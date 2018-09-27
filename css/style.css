@@ -61,7 +61,7 @@ body
 	animation-name:slideInUp;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
-	animation-delay: 0.25s;
+	animation-delay: 0.75s;
 	animation-fill-mode: backwards;
 }
 #profileBG
@@ -86,7 +86,7 @@ body
 	animation-name:slideInRight;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
-	animation-delay: 0.5s;
+	animation-delay: 1s;
 	animation-fill-mode: backwards;
 }
 #gameBG
@@ -96,12 +96,14 @@ body
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	background-image: url("../img/the-crew-2-screenshot.jpg");
+	background-image: url("../img/forza-horizon-3-screenshot.jpg");
 	background-size:cover;
 	background-position: center center;
 	animation-name:slideInRight;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
 }
 .nowPlayingTextBox
 {
@@ -116,7 +118,7 @@ body
 	animation-name:slideInLeft;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
-	animation-delay: 0.75s;
+	animation-delay: 1.25s;
 	animation-fill-mode: backwards;
 }
 .overlayText
@@ -124,7 +126,7 @@ body
 	animation-name:fadeIn;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
-	animation-delay: 1.25s;
+	animation-delay: 1.5s;
 	animation-fill-mode: backwards;
 }
 .cursiveText

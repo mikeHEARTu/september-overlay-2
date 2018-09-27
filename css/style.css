@@ -96,7 +96,7 @@ body
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	background-image: url("../img/forza-horizon-3-screenshot.jpg");
+	background-image: url("../img/the-crew-2-screenshot.jpg");
 	background-size:cover;
 	background-position: center center;
 	animation-name:slideInRight;

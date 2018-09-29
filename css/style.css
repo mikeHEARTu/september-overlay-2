@@ -220,6 +220,89 @@ body
 	height:100%;
 	overflow: hidden;
 }
+.blockBigThird
+{
+	display:flex;
+	justify-content: center;
+	flex-direction:column;
+	align-items: center;
+	width: 67%;
+	height: 100%;
+}
+.blockSmallThird
+{
+	color:#2c3e50;
+	display:flex;
+	justify-content: center;
+	flex-direction:column;
+	align-items: center;
+	width: 33%;
+	height: 100%;
+}
+.humbleContainer
+{
+	background:#ecf0f1;
+}
+.humbleIconBlock
+{
+
+}
+.humblePartnerIcon
+{
+	width: 75%;
+	height: 75%;
+	background-image: url("../img/humble-partner-icon.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.humbleMonthlyBlock
+{
+	background-image: url("../img/humble-monthly-october.png");
+	background-size:cover;
+	background-position: center center;
+	text-shadow: 0 0.25vw 0.25vw black;
+	animation-name:slideInRight;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+.humbleBundleBlock
+{
+	background-image: url("../img/humble-onespecialday.png");
+	background-size:cover;
+	background-position: center center;
+	text-shadow: 0 0.25vw 0.25vw black;
+	animation-name:slideInLeft;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.75s;
+	animation-fill-mode: backwards;
+}
+.humbleTextBlock
+{
+	justify-content: space-around;
+	font-size:2vw;
+}
+.humbleOverlayTextLarge
+{
+	padding: 1vh 1vw 0;
+	font-size: 2vw;
+	background:rgba(0, 0, 0, 0.5);
+}
+.humbleOverlayTextSmall
+{
+	padding: 1vh 1vw;
+	font-weight: bolder;
+	background:rgba(0, 0, 0, 0.5);
+}
+.humbleOverlayURL
+{
+	padding: 0 1vw 1vh;
+	font-size:1vw;
+	background:rgba(0, 0, 0, 0.5);
+}
 
 @keyframes slideInRight
 {

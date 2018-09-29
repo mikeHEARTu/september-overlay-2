@@ -303,6 +303,89 @@ body
 	font-size:1vw;
 	background:rgba(0, 0, 0, 0.5);
 }
+.vgbcArtwork
+{
+	position: absolute;
+	z-index: 10000;
+	background:#6441a4;
+	box-shadow: 0 1vh 5vh black;
+	height:30vh;
+	width:30vh;
+	right:5vw;
+	bottom:16vh;
+	background-image: url("../img/vgbc-artwork.png");
+	background-size:cover;
+	background-position: center center;
+	animation-name:slideInRight;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 1.5s;
+	animation-fill-mode: backwards;
+}
+.vgbcContainer
+{
+	background: linear-gradient(to right, #740c10, #06243b);
+}
+.vgbcTextContainer
+{
+	height:20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.vgbcScreenshotContainer
+{
+	height: 80%;
+}
+.vgbcScreenshot1
+{
+	background:#8e44ad;
+	background-image: url("../img/half-life-screenshot-1.jpg");
+	background-size:cover;
+	background-position: center center;
+	animation-name:slideInRight;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.7s;
+	animation-fill-mode: backwards;
+}
+.vgbcScreenshot2
+{
+	background:#9b59b6;
+	background-image: url("../img/half-life-screenshot-2.jpg");
+	background-size:cover;
+	background-position: center center;
+	animation-name:slideInRight;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+.vgbcScreenshot3
+{
+	background:#9b59b6;
+	background-image: url("../img/half-life-screenshot-3.jpg");
+	background-size:cover;
+	background-position: center center;
+	animation-name:slideInLeft;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0.9s;
+	animation-fill-mode: backwards;
+}
+.vgbcScreenshot4
+{
+	background:#8e44ad;
+	background-image: url("../img/half-life-screenshot-4.jpg");
+	background-size:cover;
+	background-position: center center;
+	animation-name:slideInLeft;
+	animation-duration:0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 1.1s;
+	animation-fill-mode: backwards;
+}
 
 @keyframes slideInRight
 {

@@ -258,7 +258,7 @@ body
 }
 .humbleMonthlyBlock
 {
-	background-image: url("../img/humble-monthly-october.png");
+	background-image: url("../img/humble-monthly-november.png");
 	background-size:cover;
 	background-position: center center;
 	text-shadow: 0 0.25vw 0.25vw black;
@@ -270,7 +270,7 @@ body
 }
 .humbleBundleBlock
 {
-	background-image: url("../img/humble-onespecialday.png");
+	background-image: url("../img/humble-discovery-pack.png");
 	background-size:cover;
 	background-position: center center;
 	text-shadow: 0 0.25vw 0.25vw black;

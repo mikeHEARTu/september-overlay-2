@@ -96,7 +96,7 @@ body
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	background-image: url("../img/killing-floor-2-screenshot.jpg");
+	background-image: url("../img/american-truck-simulator-screenshot.jpg");
 	background-size:cover;
 	background-position: center center;
 	animation-name:slideInRight;

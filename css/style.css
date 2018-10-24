@@ -58,7 +58,7 @@ body
 	justify-content: center;
 	flex-direction:column;
 	align-items: center;
-	animation-name:slideInUp;
+	animation-name:slideInDown;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
 	animation-delay: 0.75s;
@@ -83,7 +83,7 @@ body
 	background-image: url("../img/profilepic.jpg");
 	background-size:cover;
 	background-position: center center;
-	animation-name:slideInRight;
+	animation-name:slideInLeft;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
 	animation-delay: 1s;
@@ -115,7 +115,7 @@ body
 	justify-content: center;
 	flex-direction:column;
 	align-items: center;
-	animation-name:slideInLeft;
+	animation-name:slideInRight;
 	animation-duration:0.5s;
 	animation-timing-function: ease-out;
 	animation-delay: 1.25s;
@@ -416,6 +416,18 @@ body
 	{
 		filter:opacity(0);
 		transform: translateX(5vw);
+	}
+	to
+	{
+		filter:opacity(1);
+	}
+}
+@keyframes slideInDown
+{
+    from
+	{
+		filter:opacity(0);
+		transform: translateY(-5vw);
 	}
 	to
 	{

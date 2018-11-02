@@ -96,7 +96,7 @@ body
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	background-image: url("../img/red-dead-redemption-2-screenshot.jpg");
+	background-image: url("../img/ffxiv-screenshot.png");
 	background-size:cover;
 	background-position: center center;
 	animation-name:slideInRight;

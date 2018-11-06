@@ -96,7 +96,7 @@ body
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	background-image: url("../img/ffxiv-screenshot.png");
+	background-image: url("../img/fallout-76-artwork.jpg");
 	background-size:cover;
 	background-position: center center;
 	animation-name:slideInRight;

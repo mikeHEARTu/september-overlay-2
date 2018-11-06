@@ -96,7 +96,7 @@ body
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	background-image: url("../img/fallout-76-artwork.jpg");
+	background-image: url("../img/grand-theft-auto-5-screenshot.jpg");
 	background-size:cover;
 	background-position: center center;
 	animation-name:slideInRight;
